@@ -54,21 +54,35 @@
 # result = sum_up_to(5)
 # print(result)
 
-def hamburger(y, z, x):
-    print(z, "and", x, "like", y)
-    return z
+# def hamburger(y, z, x):
+#     print(z, "and", x, "like", y)
+#     return z
 
-def main():
-    x = "Python"
-    y = "tyler"
-    z = "tv"
-    rugby = "hamburger"
-    Python = "donnie"
+# def main():
+#     x = "Python"
+#     y = "tyler"
+#     z = "tv"
+#     rugby = "hamburger"
+#     Python = "donnie"
 
-    hamburger(x, y, z)
-    hamburger(z, x, y)
-    hamburger("rugby", z, Python)
-    y = hamburger(y, rugby, "x")
-    hamburger(y, y, "Python")
+#     hamburger(x, y, z)
+#     hamburger(z, x, y)
+#     hamburger("rugby", z, Python)
+#     y = hamburger(y, rugby, "x")
+#     hamburger(y, y, "Python")
 
-main()
+# main()
+
+def is_triangle(leng1, leng2, leng3):
+  if leng1 > leng2 + leng3:
+    print('No')
+  else:
+    if leng2 > leng1 + leng3:
+      print('No')
+    else:
+      if leng3 > leng1 + leng2:
+        print('No')
+      else:
+        print('Yes')
+
+is_triangle(4, 5, 6)
