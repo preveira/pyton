@@ -32,3 +32,4 @@ def main():
   print(total_cost(my_gallons))
 
 main()
+# for push practice
