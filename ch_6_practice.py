@@ -32,4 +32,6 @@ def main():
   print(total_cost(my_gallons))
 
 main()
-# for push practice
+
+## Chapter 6 day 2 -- 02/12/2025
+
