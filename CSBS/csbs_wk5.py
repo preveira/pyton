@@ -31,3 +31,8 @@ def sum_of_digits(n):
         result += n % 10  
         n //= 10  
     return result
+
+#function to calculate the volume of a sphere.
+def sphere_volume(r):
+   volume = 4/3 * math.pi * r**3
+   return volume
