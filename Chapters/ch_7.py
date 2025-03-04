@@ -44,3 +44,4 @@ def check_word(word, available, required):
 
 print(check_word('color', 'ACDLORT', 'R'))
 print(check_word('told', 'ACDLORT', 'R'))
+
